@@ -107,6 +107,10 @@
     color: wheat;
 }
 
+.footer a:hover{
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .card {
         margin-top: 25vh;
@@ -140,14 +144,15 @@
         text-align: center; /* Centraliza o conteúdo das células */
         padding: 10px 0; /* Adiciona um pouco de espaço interno */
       }
-    }
+    
 
     .footer {
         color: white;
         position: relative;
-        margin-top: 100vh;
+        margin-top: 130vh;
         background-color: hsl(233, 47%, 7%);
         font-size: 16px;
         text-align: center;
         padding: 10px 0; /* Adiciona um pouco de espaço interno */
     }
+}
